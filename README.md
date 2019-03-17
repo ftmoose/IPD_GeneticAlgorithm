@@ -1,4 +1,4 @@
-# Genetiv Algorithm for the Iterated Prisoner's Dilemma problem
+# Genetic Algorithm for the Iterated Prisoner's Dilemma problem
 
 Demo [here](http://moosethegoose.ca:3555)
 
