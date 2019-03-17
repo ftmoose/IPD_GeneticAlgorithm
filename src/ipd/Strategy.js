@@ -117,6 +117,7 @@ class Strategy {
 		return new Promise(resolve => {
 			for (let strat of strats){
 				this.play(A, memd, limit, strat)
+					// eslint-disable-next-line
 					.then(res => {
 						score += res;
 						count++;

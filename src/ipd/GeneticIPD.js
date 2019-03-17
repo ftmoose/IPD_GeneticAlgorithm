@@ -161,6 +161,7 @@ class GeneticIPD {
 			let fitnesses = {};
 			for (let i = 0; i < population.length; ++i) {
 				Strategy.play_default(population[i], this.MEMORY_DEPTH, this.MOVES_PER_GAME, this.WKC)
+					// eslint-disable-next-line
 					.then(res => {
 						fitnesses[population[i]] = res/this.BENCHMARK_SCORE;
 						values_left--;

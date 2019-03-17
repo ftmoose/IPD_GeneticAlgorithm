@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col, Card, Container, Button } from 'react-bootstrap';
+import { Row, Col, Card, Container } from 'react-bootstrap';
 import AlgorithmControls from '../components/AlgorithmControls';
 import Dygraph from 'dygraphs';
 import { CSVLink } from "react-csv";
