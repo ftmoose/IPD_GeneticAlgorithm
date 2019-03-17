@@ -179,7 +179,7 @@ export class AlgorithmControls extends Component {
 							<Col sm={12}>
 								<Form.Control as="select" name="fitness_function" value={this.state.fitness_function} onChange={this.onChange}>
 									<option value="population">Against population</option>
-									<option value="well_known">Againt well known strategies</option>
+									<option value="well_known">Against well known strategies</option>
 								</Form.Control>
 							</Col>
 						</Form.Group>
