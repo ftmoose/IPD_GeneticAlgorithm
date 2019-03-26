@@ -294,6 +294,15 @@ class GeneticIPD {
 		return A;
 	}
 
+	async test_one_against_wellknown(strategy) {
+		let score = 0;
+		await Strategy.play_default(strategy, 3, 150)
+			.then(res => {
+				score = res/this.BENCHMARK_SCORE;
+			})
+		return score;
+	}
+
 	/*
 		run GA
 	*/

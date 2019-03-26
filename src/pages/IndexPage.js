@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Row, Col, Card, Container } from 'react-bootstrap';
 import AlgorithmControls from '../components/AlgorithmControls';
+import WellKnownTest from '../components/WellKnownTest';
 import Dygraph from 'dygraphs';
 import { CSVLink } from "react-csv";
 import CSVReader from 'react-csv-reader'
@@ -146,6 +147,8 @@ export class IndexPage extends Component {
 									{this.render_best_strategy()}
 								</Card.Body>
 							</Card>
+							<br />
+							<WellKnownTest />
 						</Col>
 					</Row>
 				</Container>

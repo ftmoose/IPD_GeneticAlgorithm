@@ -111,7 +111,11 @@ class Strategy {
 		});
 	}
 	play_default(A, memd, limit, wkc) {
-		let strats = new Set(Object.keys(wkc).filter(x => wkc[x]));
+		let strats;
+		if (wkc) 
+			strats = new Set(Object.keys(wkc).filter(x => wkc[x]));
+		else
+			strats = new Set(Object.keys(this.stratFns));
 		let count = 0;
 		let score = 0;
 		return new Promise(resolve => {
