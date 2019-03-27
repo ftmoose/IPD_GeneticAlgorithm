@@ -1,5 +1,5 @@
 # Genetic Algorithm for the Iterated Prisoner's Dilemma problem
 
-Demo [here](http://moosethegoose.ca:3555)
+Demo [here](http://ipd.moosethegoose.ca)
 
 Open up the developer's console to see algo progress
