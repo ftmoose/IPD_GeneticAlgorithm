@@ -4,7 +4,8 @@ import AlgorithmControls from '../components/AlgorithmControls';
 import WellKnownTest from '../components/WellKnownTest';
 import Dygraph from 'dygraphs';
 import { CSVLink } from "react-csv";
-import CSVReader from 'react-csv-reader'
+import CSVReader from 'react-csv-reader';
+import GitHubForkRibbon from 'react-github-fork-ribbon';
 
 export class IndexPage extends Component {
 
@@ -98,6 +99,14 @@ export class IndexPage extends Component {
 	render() {
 		return (
 			<div>
+				<GitHubForkRibbon
+					href="https://github.com/rammom/IPD_GeneticAlgorithm"
+					target="_blank"
+					position="right"
+					color="orange"
+				>
+				Fork me on Github!
+				</GitHubForkRibbon>
 				<Container>
 					<Row style={{marginTop: "1em", justifyContent: "center"}}>
 						<Card>
